@@ -274,6 +274,60 @@ img {
   color: var(--main-text-color);
 }
 
+.feature,
+.items,
+.filter {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.items {
+  text-align: center;
+}
+
+.feature > .item {
+  width: 270px;
+}
+
+.feature > .item:not(:last-child),
+.items > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.thumb {
+  display: flex;
+  width: 100%;
+  min-height: 120px;
+
+  margin-bottom: 30px;
+
+  align-items: center;
+
+  border-radius: 4px;
+  background-color: var(--background-button-color);
+}
+
+.antenna,
+.clock,
+.diagram,
+.astronaut {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
+}
+
+.filter {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter > .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .team-section {
   font-weight: 400;
   font-size: 16px;
