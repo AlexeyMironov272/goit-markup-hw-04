@@ -494,7 +494,7 @@ img {
   color: var(--accent-color);
 }
 
-/*____________________*/
+/*----------------SOCIAL 4 OUR TEAM----------------*/
 .lists {
   margin-top: 0;
   margin-bottom: 0;
@@ -545,4 +545,19 @@ img {
   border-radius: 4px;
 
   color: var(--social-unactive);
+}
+.clients-item:hover,
+.clients-item:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.clients > .clients-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
 }
