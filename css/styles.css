@@ -165,20 +165,10 @@ img {
 /*---------------------------------------MAIN-----------------------------------*/
 
 .hero {
-  max-width: 1600px;
-  max-height: 600;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
-
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/bg-header-image.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #2f303a;
-
   text-align: center;
+  padding: 200px 0px;
+
+  background-color: #2f303a;
 }
 
 .hero-title {
