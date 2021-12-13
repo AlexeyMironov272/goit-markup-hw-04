@@ -70,6 +70,22 @@ img {
   padding: 0;
   overflow: hidden;
 }
+.envelope,
+.smartphone {
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.envelope {
+  width: 16px;
+  height: 12px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+}
 
 /*---------------------------------------LOGO-------------------------------------*/
 
