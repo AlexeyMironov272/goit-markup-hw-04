@@ -10,6 +10,8 @@
   --main-button-color: #ffffff;
   --second-button-color: #212121;
   --background-button-color: #f5f4fa;
+  --social-unactive: #afb1b8;
+  --social-unactive-footer: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -490,4 +492,57 @@ img {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
+}
+
+/*____________________*/
+.lists {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-item:hover,
+.social-item:focus {
+  color: var(--background-button-color);
+  background-color: var(--accent-color);
+}
+
+.social > .social-list:not(:last-child) {
+  margin-right: 10px;
+}
+.social,
+.clients {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: var(--social-unactive);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--social-unactive);
+  border-radius: 4px;
+
+  color: var(--social-unactive);
 }
