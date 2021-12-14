@@ -185,7 +185,7 @@ img {
 
 /*---------------------------------------MAIN-----------------------------------*/
 
-.hero {
+/* .hero {
   max-width: 1600px;
   min-height: 600px;
   margin-right: auto;
@@ -193,6 +193,33 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 
+  background-color: var(--hero-bgcolor);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/bg-header-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  display: block;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
+
+  color: var(--main-title-color);
+} */
+.hero {
+  text-align: center;
+  padding: 200px 0px;
+  background-color: #2f303a;
   background-color: var(--hero-bgcolor);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('/images/bg-header-image.jpg');
